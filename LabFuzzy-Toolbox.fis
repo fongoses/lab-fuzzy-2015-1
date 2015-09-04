@@ -12,20 +12,20 @@ AggMethod='max'
 DefuzzMethod='centroid'
 
 [Input1]
-Name='thetaA'
-Range=[-180 180]
-NumMFs=3
-MF1='Ea':'trimf',[-180 -180 0]
-MF2='Fa':'trimf',[-90 0 90]
-MF3='Da':'trimf',[0 180 180]
-
-[Input2]
 Name='thetaB'
 Range=[-180 180]
 NumMFs=3
 MF1='Eb':'trimf',[-180 -180 0]
 MF2='Fb':'trimf',[-90 0 90]
 MF3='Db':'trimf',[0 180 180]
+
+[Input2]
+Name='thetaA'
+Range=[-180 180]
+NumMFs=3
+MF1='Ea':'trimf',[-180 -180 0]
+MF2='Fa':'trimf',[-90 0 90]
+MF3='Da':'trimf',[0 180 180]
 
 [Output1]
 Name='thetaR'
